@@ -91,7 +91,7 @@ import "swiper/css/pagination";
 const projects = [
   {
     title: "Venue-Vista",
-    img: "public/assets/projects/venue-vista.png",
+    img: "assets/projects/venue-vista.png",
     desc: "A hall management app built with Flutter for college event scheduling, approvals, and availability tracking.",
     github: "https://github.com/yourusername/venue-vista",
     hosted: "https://venue-vista.vercel.app",
@@ -99,7 +99,7 @@ const projects = [
   },
   {
     title: "Rayat Kutumbh Kalyan Yojna",
-    img: "public/assets/projects/rkky.png",
+    img: "assets/projects/rkky.png",
     desc: "MERN-based welfare portal for tracking schemes and beneficiary analytics with an admin dashboard.",
     github: "https://github.com/yourusername/rayat-kutumbh-yojna",
     hosted: "https://rayatkutumbh.vercel.app",
@@ -107,7 +107,7 @@ const projects = [
   },
   {
     title: "Attendance Tracker",
-    img: "public/assets/projects/geolocation.png",
+    img: "assets/projects/geolocation.png",
     desc: "A Flutter-based location-aware attendance system using geolocation for accurate workforce tracking.",
     github: "https://github.com/yourusername/geo-attendance",
     hosted: "https://attendance-app.web.app",
@@ -115,7 +115,7 @@ const projects = [
   },
   {
     title: "CNG Booking System",
-    img: "public/assets/projects/cng.png",
+    img: "assets/projects/cng.png",
     desc: "Flutter-based app to manage CNG station bookings and workforce, improving operational flow and transparency.",
     github: "https://github.com/yourusername/cng-booking-system",
     hosted: "https://cngbooking.vercel.app",

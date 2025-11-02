@@ -17,7 +17,7 @@ export default function Navbar({ onQuoteClick }) {
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <div className="flex align-middle ">
           <div>
-            <img src="public\assets\logo.jpg" alt="logo" height="60px" width="60px" className="border rounded-full"></img> 
+            <img src="assets\logo.jpg" alt="logo" height="60px" width="60px" className="border rounded-full"></img> 
           </div>
           <h1 className="text-2xl font-bold m-3">SevenStack</h1>
         </div>

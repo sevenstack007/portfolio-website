@@ -6,37 +6,37 @@ const members = [
   {
     name: "Badal Lad",
     role: "Executive Director",
-    img: "public/assets/team/badal.jpg",
+    img: "assets/team/badal.jpg",
   },
   {
     name: "Prathmesh Jadhav",
     role: "Lead Developer",
-    img: "public/assets/team/prathmesh.jpg",
+    img: "assets/team/prathmesh.jpg",
   },
   {
     name: "Sushoban Limbole",
     role: "Lead Developer & Full-Stack Expert",
-    img: "public/assets/team/sushoban.jpg",
+    img: "assets/team/sushoban.jpg",
   },
   {
     name: "Pranav Ghorpade",
     role: "Creative Director & Flutter Developer",
-    img: "public/assets/team/pranav.jpg",
+    img: "assets/team/pranav.jpg",
   },
   {
     name: "Pavan Mali",
     role: "Marketing Manager",
-    img: "public/assets/team/pavan.jpg",
+    img: "assets/team/pavan.jpg",
   },
   {
     name: "Vedant Kumbhar",
     role: "Digital Marketer & Mern Developer",
-    img: "public/assets/team/",
+    img: "assets/team/",
   },
   {
     name: "Abhijeet Kambale",
     role: "UI/UX & Flutter Developer",
-    img: "public/assets/team/",
+    img: "assets/team/",
   },
 ];
 
