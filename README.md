@@ -1,16 +1,127 @@
-# React + Vite
+# SevenStack Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An impressive **React + Tailwind CSS** portfolio website designed for a **freelancing technical & development team** with 7 members. The site showcases team projects, profiles, and a contact form — built for modern performance and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* ⚡ Built using **React + Vite** for blazing-fast performance
+* 🎨 Styled with **Tailwind CSS** (Dark & Light modes)
+* 👥 Dedicated **Team Section** for 7 members
+* 💼 **Projects Section** featuring:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * CNG Management App
+  * Loan Management App
+  * Kutumbh Kalyan Scheme (Rayat Shikshan Sanstha)
+* 📩 Contact Form with clean UI
+* 🌙 Dark/Light Mode toggle
+* 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Tech Stack
+
+* **React 18+**
+* **Vite 5+**
+* **Tailwind CSS 3+**
+* **Node.js 20.19+**
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/sevenstack007/portfolio-website
+cd portfolio-website
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Setup Tailwind CSS (if not already)
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+### 4️⃣ Configure Tailwind
+
+Add this to your **tailwind.config.js**:
+
+```js
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+### 5️⃣ Start Development Server
+
+```bash
+npm run dev
+```
+
+Visit your site at:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 📁 Project Structure
+
+```
+seven-stack/
+├── src/
+│   ├── components/
+│   │   └── SevenStack.jsx          # Main portfolio component
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── public/
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
+
+---
+
+## 🧑‍💻 Customization
+
+You can update:
+
+* Team details → Inside the `Team` section
+* Project details → Inside the `Projects` array
+* Colors → Inside `tailwind.config.js`
+
+---
+
+## 🌍 Deployment
+
+### Deploy to **Vercel**:
+
+```bash
+npm run build
+vercel deploy
+```
+
+Or use any static host like **Netlify**, **GitHub Pages**, or **Cloudflare Pages**.
+
+---
+
+## 🏆 Credits
+
+Developed by **SevenStack** — A 7-member freelance group specializing in modern app development.
+
+© 2025 DevTeam. All rights reserved.
