@@ -4,19 +4,39 @@ import { motion } from "framer-motion";
 
 const members = [
   {
-    name: "Ava Mitchell",
-    role: "CEO & Founder",
-    img: "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&w=500&q=80",
+    name: "Badal Lad",
+    role: "Executive Director",
+    img: "src/assets/team/badal.jpg",
   },
   {
-    name: "Ethan Brooks",
+    name: "Prathmesh Jadhav",
     role: "Lead Developer",
-    img: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=500&q=80",
+    img: "src/assets/team/prathmesh.jpg",
   },
   {
-    name: "Luna Carter",
-    role: "Creative Director",
-    img: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=500&q=80",
+    name: "Sushoban Limbole",
+    role: "Lead Developer & Full-Stack Expert",
+    img: "src/assets/team/sushoban.jpg",
+  },
+  {
+    name: "Pranav Ghorpade",
+    role: "Creative Director & Flutter Developer",
+    img: "src/assets/team/pranav.jpg",
+  },
+  {
+    name: "Pavan Mali",
+    role: "Marketing Manager",
+    img: "src/assets/team/pavan.jpg",
+  },
+  {
+    name: "Vedant Kumbhar",
+    role: "Digital Marketer & Mern Developer",
+    img: "src/assets/team/",
+  },
+  {
+    name: "Abhijeet Kambale",
+    role: "UI/UX & Flutter Developer",
+    img: "src/assets/team/",
   },
 ];
 

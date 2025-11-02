@@ -7,6 +7,7 @@ import Team from "./components/Team";
 import Footer from "./components/Footer";
 import QuoteModal from "./components/QuoteModal";
 import Navbar from "./components/Navbar";
+import AboutUs from "./components/AboutUs";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,9 +22,10 @@ export default function App() {
     <div className="font-sans bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100">
       <Navbar onQuoteClick={() => setOpenModal(true)} onToggleTheme={() => setDarkMode(!darkMode)} darkMode={darkMode} />
       <Hero onQuoteClick={() => setOpenModal(true)} />
+      <AboutUs /> 
       <Services />
       <CaseStudies />
-      <Clients />
+      {/* <Clients /> */}
       <Team />
       <Footer />
       <QuoteModal open={openModal} onClose={() => setOpenModal(false)} />
