@@ -31,12 +31,12 @@ const members = [
   {
     name: "Vedant Kumbhar",
     role: "Digital Marketer & Mern Developer",
-    img: "assets/team/",
+    img: "assets/team/vedant.jpeg",
   },
   {
     name: "Abhijeet Kambale",
     role: "UI/UX & Flutter Developer",
-    img: "assets/team/",
+    img: "assets/team/abhi.jpg",
   },
 ];
 

@@ -19,7 +19,7 @@ export default function Footer() {
             Building digital products that combine creativity, technology, and innovation.
           </p>
           <a
-            href="mailto:hello@sevenstack.dev"
+            href="mailto:sevenstack007@gmail.com"
             className="inline-flex items-center gap-2 text-indigo-600 dark:text-indigo-400 hover:underline font-medium"
           >
             <FaEnvelope /> sevenstack007@gmail.com
@@ -42,11 +42,11 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-indigo-500">Resources</h3>
           <ul className="space-y-2">
-            <li><a href="https://github.com/sevenstack" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/company/sevenstack" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">LinkedIn</a></li>
-            <li><a href="https://twitter.com/sevenstack" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Twitter</a></li>
-            <li><a href="https://instagram.com/sevenstack" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Instagram</a></li>
-            <li><a href="https://sevenstack.dev/privacy" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Privacy Policy</a></li>
+            <li><a href="https://github.com/sevenstack007" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/seven-stack-07924b397/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">LinkedIn</a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Twitter</a></li>
+            <li><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Instagram</a></li>
+            <li><a href="https://sevenstack.dev/" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">Privacy Policy</a></li>
           </ul>
         </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
               <FaGithub size={18} />
             </a>
             <a
-              href="https://linkedin.com/company/sevenstack"
+              href="https://www.linkedin.com/in/seven-stack-07924b397/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-indigo-500 hover:text-white transition-all"
@@ -71,7 +71,7 @@ export default function Footer() {
               <FaLinkedin size={18} />
             </a>
             <a
-              href="https://twitter.com/sevenstack"
+              href="https://twitter.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-indigo-500 hover:text-white transition-all"
@@ -79,7 +79,7 @@ export default function Footer() {
               <FaTwitter size={18} />
             </a>
             <a
-              href="https://instagram.com/sevenstack"
+              href="https://instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-800 hover:bg-indigo-500 hover:text-white transition-all"

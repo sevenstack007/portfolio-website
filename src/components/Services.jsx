@@ -17,7 +17,7 @@ const services = [
   {
     icon: <Smartphone className="w-10 h-10 text-indigo-600 dark:text-indigo-400" />,
     title: "Mobile Solutions",
-    desc: "Cross-platform mobile applications using React Native and modern design systems.",
+    desc: "Cross-platform mobile applications using Flutter and modern design systems.",
   },
   {
     icon: <LineChart className="w-10 h-10 text-indigo-600 dark:text-indigo-400" />,
