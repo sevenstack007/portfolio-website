@@ -96,14 +96,14 @@ export default function QuoteModal({ open, onClose }) {
 
     emailjs
       .send(
-        "service_d1oy7vi",       // e.g. service_xxxxxxx
-        "template_2b8tkv2",      // e.g. template_xxxxxxx
+        "service_d1oy7vi",   
+        "template_2b8tkv2",     
         {
           from_name: form.name,
           from_email: form.email,
           message: form.message,
         },
-        "HvWVVMJwpr3nx8fwl"        // e.g. jN3kUxxxxxx
+        "HvWVVMJwpr3nx8fwl"      
       )
       .then(() => {
         alert(`Thank you, ${form.name}! Your request has been sent.`);
